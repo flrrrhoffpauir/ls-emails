@@ -1,0 +1,302 @@
+@import "variables/variables";
+@import "mixins/mixins";
+
+
+// Reset
+// ------------------------------------------------------------------
+body,
+div,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0 none;
+	height: auto;
+	line-height: 100%;
+	outline: none;
+	text-decoration: none;
+}
+
+a img {
+	border: 0 none;
+}
+
+a,
+a:link,
+a:hover,
+a:visited {
+    color: $color_link;
+}
+
+td,
+table {
+	border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    vertical-align: top;
+}
+
+// Gmail strips out the body tag
+body,
+#bodyTable {
+    background-color: $color_background;
+    color: $color_body;
+    font-family: $font_base;
+	height: 100% !important;
+	margin: 0;
+	padding: 0;
+	width: 100% !important;
+}
+
+ul {
+    margin: 0;
+    padding-left: 40px;
+}
+
+li {
+    margin-bottom: 15px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+
+// Client Specific
+// ------------------------------------------------------------------
+
+// Hotmail, Outlook.com
+.ExternalClass {
+	line-height: 100%;
+	width: 100%;
+
+	p, span, font, td, div {
+		line-height: 100%;
+	}
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: $color_body !important;
+}
+
+// Outlook 2007, 2010, 2013 ('Read in browser' link)
+#outlook a {
+	padding: 0;
+}
+
+// Outlook makes tables fat
+table {
+	mso-table-lspace: 0pt;
+    mso-table-rspace: 0pt;
+}
+
+// IE makes responsive images ugly
+img {
+	-ms-interpolation-mode: bicubic;
+}
+
+// OSX, iOS, Windows Mobile bumps up font sizes under certain settings
+body {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+
+// Updated
+// ------------------------------------------------------------------
+.content {
+    padding: 25px 0;
+    width: 600px;
+}
+
+.logo {
+    padding: 0 0 0 50px;
+    text-align: left;
+
+    img {
+        display: block;
+    }
+
+    &.foundation {
+        background-color: #FFFFFF;
+    }
+}
+
+.note-container {
+    background-color: #FFFFFF;
+    padding: 50px;
+
+    td {
+        font-size: 14px;
+        padding: 0 0 20px 0;
+        text-align: left;
+    }
+}
+
+td {
+    &.last {
+        padding-bottom: 0;    
+    }
+
+    &.button {
+        background-color: $color_yellow;
+        border-radius: 4px;
+        font-size: 18px;
+        padding: 11px 21px;
+
+        a {
+            color: #000000;
+            text-decoration: none;
+            transition: all 0.2s ease-out;
+        }
+    }
+}
+
+.header-img {
+    height: auto !important;
+    max-width: 600px !important;
+    width: 100% !important;
+}
+
+.a {
+    color: #000000;
+}
+
+.live {
+    font-weight: normal;
+}
+
+
+// FOOTER
+// ------------------------------------------------------------------
+.footer {
+    .links {
+        padding: 6px 0;
+
+        table {
+            border-collapse: separate;
+        }
+    }
+
+    a {
+        color: $color_footer_links;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 12px;
+        text-transform: uppercase;
+        text-decoration: none;
+        vertical-align: text-top;
+    }
+
+    .org {
+        a {
+            font-size: 14px;
+            line-height: 12px;
+        }
+    }
+
+    .information {
+        padding: 0 25px;
+    }
+
+    .unsubscribe {
+        color: $color_footer;
+        font-size: 14px;
+        font-weight: 200;
+        padding: 25px 0;
+
+        a {
+            color: $color_unsubscribe !important;
+            font-size: 14px  !important;
+            font-weight: 200  !important;
+            text-decoration: underline  !important;
+            text-transform: none  !important;
+            vertical-align: baseline  !important;
+        }
+    }
+
+    .copyright {
+        color: $color_copyright;
+        font-size: 12px;
+    }
+}
+// ------------------------------------------------------------------
+
+
+.desktop-hidden,
+.desktop-hidden table {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    max-height: 0 !important;
+    mso-hide: all !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    visibility: hidden !important;
+    width: 0 !important;
+}
+    
+@media screen and (max-width: 600px) {
+
+    td {
+        &[class="note-container"] {
+            padding: 20px !important;
+        }
+
+        &[class="footer"] {
+            padding: 0 10px !important;
+
+            .org {
+                padding: 5px 15px !important;
+
+                a {
+                    font-size: 12px !important;
+                }
+            }
+        }
+
+        [class="footer-link"] {
+            padding: 5px 15px !important;
+        }
+
+        [class="information"] {
+            padding: 0 !important;
+        }
+
+    }
+
+    div[class="phone-hidden"],
+    div[class="phone-hidden"] table {
+        display: none !important;
+        height: 0 !important;
+        margin: 0 !important;
+        max-height: 0 !important;
+        mso-hide: all !important;
+        overflow: hidden !important;
+        padding: 0 !important;
+        visibility: hidden !important;
+        width: 0 !important;
+    }
+
+    div[class="desktop-hidden"],
+    div[class="desktop-hidden"] table {
+        display: block !important;
+        height: auto !important;
+        margin: auto !important;
+        max-height: none !important;
+        mso-hide: all !important;
+        padding: 0 !important;
+        overflow: hidden !important;
+        visibility: visible !important;
+        width: auto !important;
+    }    
+}

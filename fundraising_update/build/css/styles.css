@@ -1,0 +1,345 @@
+body, div, p {
+  margin: 0;
+  padding: 0; }
+
+img {
+  border: 0 none;
+  height: auto;
+  line-height: 100%;
+  outline: none;
+  text-decoration: none; }
+
+a img {
+  border: 0 none; }
+
+a, a:hover, a:visited, a:link {
+  color: #0D6BD8; }
+
+table, td {
+  border-collapse: collapse; }
+
+td {
+  text-align: center;
+  vertical-align: top; }
+
+body, #bodyTable {
+  background-color: #CAC9C4;
+  color: #2B2B29;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100% !important;
+  margin: 0;
+  padding: 0;
+  width: 100% !important; }
+
+.ExternalClass {
+  line-height: 100%;
+  width: 100%; }
+  .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+    line-height: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2B2B29 !important; }
+
+#outlook a {
+  padding: 0; }
+
+table {
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt; }
+
+img {
+  -ms-interpolation-mode: bicubic; }
+
+body {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+.content {
+  padding: 25px 0;
+  width: 600px; }
+
+.fundraising-container,
+.share-fundraising-container,
+.fundraising-tips {
+  background-color: #FFFFFF; }
+
+.share-fundraising-container,
+.fundraising-tips {
+  padding-bottom: 35px; }
+
+.fundraising-stats-table {
+  padding-bottom: 30px;
+  text-align: center; }
+
+.fundraising-stats {
+  color: #FFFFFF;
+  background-color: #000000;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 140px; }
+
+.fundraising-stats-title {
+  color: #666666;
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 12px;
+  padding-bottom: 5px; }
+
+.fundraising-stats-stat {
+  color: #FFFFFF;
+  font-size: 32px; }
+  .fundraising-stats-stat.total {
+    font-size: 32px; }
+
+.fundraising-stats-spacer {
+  background-color: #FFFFFF;
+  width: 10px; }
+
+.fundraising-tips-title,
+.fundraising-report-title {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  padding: 35px;
+  text-transform: uppercase; }
+
+.fundraising-tips-title {
+  padding: 35px 50px 30px; }
+
+.fundraising-tips-text {
+  background-color: #FFFFFF;
+  font-size: 18px;
+  padding: 0 50px 40px 50px;
+  text-align: left; }
+  .fundraising-tips-text p {
+    font-size: 18px; }
+
+.fundraising-tips-link {
+  font-size: 18px;
+  height: 36px;
+  padding: 0 50px;
+  text-align: center; }
+  .fundraising-tips-link a {
+    text-decoration: underline; }
+
+.alert {
+  font-size: 17px;
+  font-weight: bold;
+  padding-bottom: 35px;
+  text-align: left; }
+  .alert .success {
+    width: 500px; }
+  .alert .error {
+    width: 375px; }
+  .alert .img {
+    padding-right: 10px;
+    width: 41px; }
+  .alert td {
+    text-align: left; }
+
+.border-top {
+  border-top: 1px solid #CCCCCC; }
+
+.share-spacer {
+  width: 15px; }
+
+.button {
+  border-collapse: separate;
+  border-radius: 4px; }
+  .button td {
+    color: #FFFFFF !important;
+    font-weight: bold !important;
+    text-align: center !important; }
+  .button a {
+    color: #FFFFFF !important;
+    display: block !important;
+    text-decoration: none !important;
+    width: 100% !important; }
+  .button.facebook {
+    background-color: #3B5999; }
+  .button.twitter {
+    background-color: #50ACEF; }
+  .button .large {
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 12px 0; }
+    .button .large .icon {
+      line-height: 0;
+      padding-right: 3px;
+      vertical-align: -3px; }
+  .button .small {
+    font-size: 12px;
+    padding: 5px 0; }
+    .button .small .icon {
+      line-height: 0;
+      padding-right: 3px;
+      vertical-align: -5px; }
+
+.live {
+  font-weight: normal; }
+
+.share-buttons-large {
+  width: 474px; }
+
+.share-buttons-small {
+  width: 335px; }
+
+.connect {
+  background-color: #000000;
+  padding: 35px 30px; }
+  .connect .connect-headline {
+    color: #FFFFFF !important;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px !important; }
+
+.footer .links {
+  padding: 6px 0; }
+  .footer .links table {
+    border-collapse: separate; }
+.footer a {
+  color: #0E0E0D;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  vertical-align: text-top; }
+.footer .org a {
+  font-size: 14px;
+  line-height: 12px;
+  padding-left: 0; }
+.footer .information {
+  padding: 0 25px; }
+.footer .unsubscribe {
+  color: #6B6B69;
+  font-size: 14px;
+  font-weight: 200;
+  padding: 25px 0; }
+  .footer .unsubscribe a {
+    color: #6B6B69 !important;
+    font-size: 14px  !important;
+    font-weight: 200  !important;
+    text-decoration: underline  !important;
+    text-transform: none  !important;
+    vertical-align: baseline  !important; }
+.footer .copyright {
+  color: #979795;
+  font-size: 12px; }
+
+.desktop-hidden,
+.desktop-hidden table {
+  display: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  max-height: 0 !important;
+  mso-hide: all !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  visibility: hidden !important;
+  width: 0 !important; }
+
+.convio {
+  background-color: #FFFFFF;
+  width: 600px; }
+
+.color-white {
+  color: #FFFFFF; }
+
+@media screen and (max-width: 601px) {
+  img[class="resp-img"] {
+    width: 100% !important; }
+
+  table[class="resp-table"] {
+    width: 100% !important; }
+
+  td[class="resp-td"] {
+    display: block !important;
+    width: 100% !important; }
+
+  td[class="content"] {
+    width: 100% !important; }
+
+  td[class="fundraising-stats-table"] {
+    padding: 0 10px 30px 10px !important; }
+
+  table[class="fundraising-stats"] {
+    display: block !important;
+    width: 100% !important; }
+
+  td[class="fundraising-stats-title"] {
+    padding: 10px 0 5px 0 !important; }
+
+  td[class="fundraising-stats-stat"] {
+    padding: 0 0 10px 0 !important; }
+
+  td[class="alert"] {
+    padding: 0 10px 35px 10px !important; }
+
+  table[class="success"], table[class="error"] {
+    width: 100% !important; }
+
+  td[class="fundraising-tips-title"] {
+    padding: 35px 10px 30px !important; }
+
+  td[class="fundraising-tips-text"] {
+    padding: 0 10px 40px 10px !important; }
+
+  td[class="share-buttons-container"] {
+    display: block !important;
+    padding: 0 10px !important; }
+
+  td[class="connect"] {
+    padding: 35px 10px !important; }
+
+  table[class="share-buttons-large"] {
+    width: 100% !important; }
+
+  table[class="share-buttons-large"] .button {
+    width: 100% !important; }
+
+  td[class="share-spacer"] {
+    display: block !important;
+    width: 100% !important; }
+
+  td[class="fundraising-tips-link"] {
+    height: auto !important;
+    padding: 10px 10px !important; }
+
+  td[class="footer"] {
+    padding: 0 10px !important; }
+
+  td[class="footer-link"] {
+    display: block !important;
+    text-align: right !important; }
+
+  td[class="information"] {
+    padding: 0 !important; }
+
+  div[class="phone-hidden"],
+  div[class="phone-hidden"] table {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    max-height: 0 !important;
+    mso-hide: all !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    visibility: hidden !important;
+    width: 0 !important; }
+
+  div[class="desktop-hidden"],
+  div[class="desktop-hidden"] table {
+    display: block !important;
+    height: auto !important;
+    margin: auto !important;
+    max-height: none !important;
+    mso-hide: all !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    visibility: visible !important;
+    width: auto !important; }
+
+  td[class="footer"] .org a {
+    font-size: 12px !important; } }

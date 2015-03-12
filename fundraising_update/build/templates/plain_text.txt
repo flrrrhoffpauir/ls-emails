@@ -1,0 +1,31 @@
+Event ID: [[U1:myfrid=[[S48:1790:fr-id]][[S48:1780:fr-id]][[S48:1771:fr-id]][[S48:1800:fr-id]][[S48:1650:fr-id]][[S48:1760:fr-id]][[S48:1781:fr-id]][[S48:1740:fr-id]][[S48:1440:fr-id]][[S48:1782:fr-id]][[S48:1690:fr-id]][[S48:1700:fr-id]][[S48:1730:fr-id]][[S48:1850:fr-id]][[S48:1830:fr-id]][[S48:1860:fr-id]][[S48:1120:fr-id]][[S48:1720:fr-id]][[S48:1660:fr-id]][[S48:1750:fr-id]]]]
+
+[[?x[[S1:first_name]]::xx::Your::[[S1:first_name]]'s]] Fundraising Report for [[?xx[[S80:myfrid]]xx::xx1700xx::Austin Challenge::[[?xx[[S80:myfrid]]xx::xx1780xx::Chicago Marathon::[[?xx[[S80:myfrid]]xx::xx1781xx::Marine Corps Marathon::[[?xx[[S80:myfrid]]xx::xx1782xx::NYC Marathon::[[?xx[[S80:myfrid]]xx::xx1830xx::Survivor Summit::[[?xx[[S80:myfrid]]xx::xx1850xx::Austin Marathon & Half Marathon::Cant Match myfrid to Event Name]]]]]]]]]]]]
+* Days to Event: [[?x[[E42:[[S80:myfrid]]:days-to-event]]x::xx::100::[[E42:[[S80:myfrid]]:days-to-event]]]]
+* Fundraising Total: [[?x[[E48:[[S80:myfrid]]:dollars-all]]x::xx::$0.00::[[E48:[[S80:myfrid]]:dollars-all]]]]
+* No. of Donations: [[?x[[E48:[[S80:myfrid]]:donations]]x::xx::0::[[E48:[[S80:myfrid]]:donations]]]]
+[[?[[E48:[[S80:myfrid]]:if-percent-gt:100]]::TRU:: 
+You’ve met your fundraising minimum! We’ve got some awesome incentives for supporters just like you. http://www.livestrong.org/events/[[S80:myfrid]]/incentives/?donottrack=true&amp;utm_source=[[S80:myfrid]]-fundraising-update&amp;utm_medium=email&amp;utm_campaign=welcome-series
+::
+You only have [[?x[[E42:[[S80:myfrid]]:days-to-event]]x::xx::100::[[E42:[[S80:myfrid]]:days-to-event]]]] days left to reach your fundraising minimum of [[E48:[[S80:myfrid]]:goal:no-param]]! Visit your fundraising center now. http://www.teamlivestrong.org/f/[[S80:myfrid]]/[[S1:cons_id]]?donottrack=true&amp;utm_source=[[S80:myfrid]]-fundraising-update&amp;utm_medium=email&amp;utm_campaign=welcome-series
+]]
+GET STARTED WITH YOUR NEW FUNDRAISING CENTER
+[[?[[E45:25981]]::TRUE::[[S51:2014_New_Fundraising_Center_CTA_B]]::[[S51:2014_New_Fundraising_Center_CTA_A]]]]TEAM LIVESTRONG FUNDRAISING RESOURCES
+Our team has put together the following helpful tools and resources to ensure you meet and exceed your goals.
+* Visit Your Fundraising Center http://teamlivestrong.org/f/[[S80:myfrid]]/[[S1:cons_id]]?donottrack=true
+* Visit Our Blog for Helpful Fundraising Tips http://blog.livestrong.org/category/livestrong-events/fundraising-tips-livestrong-events?utm_source=[[S80:myfrid]]-fundraising-update&amp;utm_medium=email&amp;utm_campaign=welcome-series
+* Join the Facebook Group for Your Event [[?xx[[S80:myfrid]]xx::xx1700xx::https://www.facebook.com/groups/588308801246476::[[?xx[[S80:myfrid]]xx::xx1780xx::https://www.facebook.com/groups/246359288776412::[[?xx[[S80:myfrid]]xx::xx1781xx::https://www.facebook.com/groups/182452155235375::[[?xx[[S80:myfrid]]xx::xx1782xx::https://www.facebook.com/groups/232088680244788::[[?xx[[S80:myfrid]]xx::xx1830xx::https://www.facebook.com/pages/Survivor-Summit/296319910385727::[[?xx[[S80:myfrid]]xx::xx1850xx::https://www.facebook.com/groups/399029583478607::Cant Match myfrid to Facebook URL]]]]]]]]]]]]
+
+Connect with Team LIVESTRONG on Facebook and Twitter.
+* Team LIVESTRONG https://www.facebook.com/teamlivestrong
+* @TeamLIVESTRONG https://twitter.com/livestrong
+
+* LIVESTRONG.org http://www.livestrong.org/
+* Donate https://www.livestrong.org/donation/
+* Shop http://www.livestrong.org/shop/
+* Events http://www.livestrong.org/events/
+* We Can Help http://www.livestrong.org/we-can-help/
+
+Click here to unsubscribe from receiving emails or change your preferences. http://laf.convio.net/site/CO
+(C)LIVESTRONG, a registered trademark of the LIVESTRONG Foundation.
+The LIVESTRONG Foundation is a 501(c)(3) under federal tax guidelines.
